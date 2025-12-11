@@ -1,0 +1,83 @@
+/* General page styling */
+body {
+    font-family: 'Georgia', serif;
+    background: url('https://wallpapers.com/images/hd/gryffindor-common-room-warmth-cwk3yz9lj8yoyecg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fdf6e3;
+}
+
+/* Quiz container */
+.quiz-container {
+    width: 70%;
+    margin: 50px auto;
+    background: rgba(20, 20, 20, 0.85); /* dark parchment overlay */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #740001; /* Gryffindor red glow */
+    border: 2px solid #d3a625; /* golden trim */
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #d3a625; /* Hogwarts gold */
+    text-shadow: 2px 2px #000;
+}
+
+/* Question blocks */
+.question-block {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #740001; /* Gryffindor accent */
+    border-radius: 6px;
+}
+
+.question-block p {
+    font-size: 1.2em;
+    color: #fdf6e3;
+}
+
+/* Labels and options */
+label {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+    color: #fdf6e3;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Buttons */
+.btn, input[type="submit"] {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #740001, #ae0001);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #d3a625;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover, input[type="submit"]:hover {
+    background: linear-gradient(135deg, #ae0001, #d3a625);
+    color: #000;
+}
+
+/* Results page messages */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+strong {
+    color: #d3a625;
+}
