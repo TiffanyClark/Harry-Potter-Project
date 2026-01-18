@@ -39,8 +39,7 @@ harry-potter-quiz/
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/harry-potter-quiz.git
-2. Start a local PHP server:
-   php -S localhost:8000
+2. Open project in PHPStorm
 3. Open http://localhost:8000/index.php in your browser.
 
 
@@ -72,3 +71,4 @@ Click Try Again to replay and improve your score.
 
 📜 License
 MIT License — free to use and adapt.
+
